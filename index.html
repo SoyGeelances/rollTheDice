@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roll the Dice</title>
+
+    <!-- Utilities -->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="window-box">
+        <div id="parent-box">
+            <div class="boxes left-box active" id="box1">
+                <div class="wrap">
+                    <h1 id="player1">PLAYER 1</h1>
+                <h2 class="count-number" id="number-player1">0</h2>
+        
+                <div class="current-box">
+                    <p>CURRENT</p>
+                    <P class="current-numbers left-current-number">0</P>
+                </div>
+                </div>
+            </div>
+            <div class="boxes right-box" id="box2">
+                <div class="wrap">
+                    <h1 id="player2">PLAYER 2</h1>
+                <h2 class="count-number" id="number-player2">0</h2>
+        
+                <div class="current-box">
+                    <p>CURRENT</p>
+                    <P class="current-numbers right-current-number">0</P>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div id="central-box">
+            <div class="content-central">
+                <div class="wrap-cent">
+                    <p style="color:#000; font-size: 19px;">50 points to win!!</p>
+                    <p><button class="buttons new-game-butt">🔁 New Game</button></p>
+                    <p class="img-class"><img src="/img/6.png" alt="dice-image" width="70px" class="dice hidden" id="diceId"></p>
+                    <p><button class="buttons roll-dice-butt">🎲 ROLL DICE</button></p>
+                    <p><button class="buttons hold-butt">📥 HOLD</button></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="/js/script.js"></script>
+</body>
+</html>

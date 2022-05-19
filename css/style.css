@@ -1,0 +1,134 @@
+/*==================================
+* Author        : "Voisca"
+==================================== */
+
+/*==================================
+font-family: 'Roboto Slab', serif;
+==================================== */
+
+
+/*=========== TABLE OF CONTENTS ===========
+1.  General css 
+2.  Boxes
+3.  Central Box
+
+==========================================*/
+
+/*-------------------------------------
+		1.General css 
+--------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700&display=swap');
+body {
+	font-family: 'Roboto Slab', serif;
+	font-size:16px;
+	color:#1f1d1b;
+	background: #fff;
+    max-width:1920px;
+}
+
+h1,h2,h3,h4,h5,h6 { 
+	margin: 0;
+    font-weight: 500;
+}
+
+div#window-box {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(0,20,36);
+    background: linear-gradient(90deg, rgb(0 15 36) 0%, rgb(96 52 132) 36%, rgb(0 255 255) 100%);
+}
+
+div#parent-box {
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+}
+
+button.buttons {
+    padding: 11px 0px;
+    border: 1px solid rgba(85, 85, 85, 0.13);
+    border-radius: 92px;
+    margin: 15px;
+    width: 133px;
+    background-color: rgba(16, 40, 135, 0.87);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    box-shadow: 0px 0px 7px 4px #0000003d;
+}
+
+p {
+    text-align: center;
+    font-weight: 500;
+    color: #fff;
+}
+
+/*-------------------------------------
+		2.  Boxes
+--------------------------------------*/
+
+.boxes {
+    width: 450px;
+    background: #ffffff9e;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.wrap {
+    margin: 65px;
+    text-align: center;
+}
+
+h2.count-number {
+    margin-bottom: 37%;
+    font-size: 62px;
+}
+
+.current-box {
+    background: #6b94b6;
+    width: 17vw;
+    height: 105px;
+    padding: 21px;
+    margin: auto;
+    border-radius: 25px;
+}
+
+p.current-numbers {
+    font-size: 23px;
+}
+
+.active {
+    background-color: #fff;
+}
+
+.win-style {
+    color: #1a6d17;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+/*-------------------------------------
+		3.  Central Box
+--------------------------------------*/
+
+div#central-box {
+    margin-top: -680px;
+}
+
+.content-central {
+    margin: 84px auto;
+}
+
+.wrap-cent {
+    display: flex;
+    flex-direction: column;
+    padding: 29px;
+}
+
+.hidden {
+    display: none;
+}
+
+p.img-class {
+    height: 86px;
+}
