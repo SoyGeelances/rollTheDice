@@ -41,12 +41,12 @@ function ChangeGamers() {
 
 //WINNER?
 function itWins(Vplayer) {
-    if (Vplayer > 5 && Vplayer == v1) {
+    if (Vplayer > 50 && Vplayer == v1) {
         textoP1.textContent = "YOU WIN!!"
         textoP1.classList.add("win-style");
         rollDice.disabled = true;
 
-    } else if (Vplayer > 5 && Vplayer == v2) {
+    } else if (Vplayer > 50 && Vplayer == v2) {
         textoP2.textContent = "YOU WIN!!"
         textoP2.classList.add("win-style");
         rollDice.disabled = true;
